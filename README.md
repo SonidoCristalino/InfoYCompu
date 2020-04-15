@@ -23,3 +23,12 @@
 	- *ID*: 716 7699 3338
 	- *Contraseña*: 007424
 
+* **Cronograma**:
+	1. Introducción
+	2. Modelo de Redes
+	3. Datos y Señales
+	4. Transmisión Digital
+	5. Transmisión Analógica
+	6. Multiplexación y Ensanchado
+	7. Medios de Transmisión
+	8. Telefonía Móvil  y algunos Proto

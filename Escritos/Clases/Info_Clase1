@@ -1,0 +1,142 @@
+Información y comunicación: Clase 1
+-----------------------------------
+
+Sólo se aspira a aprobar la cursada, directamente a final.
+
+Medios de comunicación:
+----------------------
+    Campus: videos, textos, cosas complementarios, actividades. Luego de la 3 clase va a ser un cuestionario por el campus (es por
+    tiempo el cuestionario).
+    Zoom: De 17 a 19hs los días martes.
+    ClassRoom: luego va a pasar la clave. Acá tienen que ir toda las consultas.
+    Todos están en el Repositorio.
+
+Configurar el recibir un mail del campus para nueva actividad:
+
+Luego de la tercer clase se da práctica para hacer en el campus: de tipo multiplechoice, y esas cosas. Hay que leer.
+
+Lo primero es leer la Hoja de Ruta. En el Plan de trabajo está el cronograma de la materia (es tentativo).
+    Hay que hacer esto: https://campus.unaj.edu.ar/mod/forum/discuss.php?d=10765
+    Bajar los materiales de la primer clase 1: https://campus.unaj.edu.ar/mod/book/view.php?id=39562
+
+Power nº 1:
+----------
+	Los power point de la introducción son para leerlo por nuestra cuenta. Las comunicaciones a lo largo de la historia.
+
+	Información: conjunto de datos ordenados y supervisados que construyen un mensaje. El sujeto o sistema quien recibe este
+	mensaje le permite en base a esta información resolver problemas, tomar decisiones o cambiar el estado de conocimiento
+	sobre un determinado tema.
+
+	Comunicación:
+	Proceso de trasmisión de un mensaje, mediante un código común, que es generado por un emisor y destinado a un receptor. A
+	través de la comunicación, las personas obtienen información respecto a su entorno y pueden compartirla con el resto.
+
+	Historia de la comunicación:
+	Su escritura se hizo desde tiempos inmemoriales, desde la escritura en tierra mediante la mano hasta los celulares de hoy
+	en día.
+	Se puede decir que comienza en el año 3300 a.C. con signos y señales. Surgen los primeros intentos de arte (Arte
+	pre-histórico) esculturas, grabados, pinturas rupestres.
+	3000 a.C primeros jeroglíficos.
+	Siglo 8 a 6 comienzo de la escritura (sistemas de signos).
+	Siglo 15 invención de la imprenta de Gutenberg.
+	1844: Invención del telégrafo de Morse
+	1876: Teléfono, transmisión de voz a travéz de cables y vibraciones.
+	1906: Invención de la Radiodifusión.
+	1927: Invención de la televisión.
+	1947: Computadora: recibe y procesa datos.
+	1950: Transmisión vía satélite.
+	1969: IInternet, sistema de redes por computadoras
+	1971: mail
+	1981:  Teléfono celular
+	1990: Internet se hace pública.
+	2000: Google
+	2004: Redes sociales.
+
+Informática:
+	Ciencia que estudia el procesamiento de la información mediante medios automáticos (dispositivos electrónicos y sistemas
+	computacionales).
+
+Revolución Informática: Período de avances tecnológicos desde mediados del S. XX hasta la actualidad. Esta evolución fue gracias
+al avance tanto del estudio de materiales y propiedades microscópicas como del estudio de dispositivos semiconductores, los cuales
+permiten almacenar en una porción muy pequeña de espacio millones de elementos activos.
+
+El impacto de la transmisión de datos y las redes de comunicaciones es más que evidente ya que todo hoy en día se basan en
+desiciones basadas en la tecnología.
+
+Power nº 2:
+----------
+
+El modelo más simple que tenemos elementos necesarios para la comunicación de datos: emisor-canal-receptor y el mensaje.
+Si estamos en una clase presencial, el canal es el aire, el mensaje sería la clase que se está dictando.  Receptor en ese caso
+somos los alumnos y el emisor el profesor.
+
+La imagen de los tambores, se puede considerar como una comunicación, es rudimentario pero tiene todos los elementos antes
+descriptos, lo mismo que lo que sería ahora comunicación con celular (más actual)
+
+La comunicación de datos difiere porquese agregan cosas:
+    Perturbaciones
+    Receptor: se divide en dos Receptor y Destino
+    Emisor: Fuente de información y transmisor. La fuente de información, sería el cerebro del profesor
+        el transmisor las cuerdas vocales del profesor.
+        Canal (en caso de que sea presencial): es el aire
+        receptor: oído del alumno.
+        Destino: Cerebro del alumno
+
+¿Es la única manera de transmitir un mensaje? NO, lo ideal sería estar en la UNAJ y que sea presencial.
+Dadas las circunstancias se establece otro canal (remota).
+Puede ser también de otra forma como ser el lenguaje de señas o con la mano escribiendo un papel o carta.
+
+Clsae en la UNAJ con la puerta cerrada y de repente se abre la puerta y hay mucha gente afuera, con mucho ruido, por l oque los
+alumnos dejan de oir al profesor, por lo que hay una perturbación en el canal y puede que no llegue a destino de la forma en que
+fue pensada.
+
+Cuando se quiere transmitir una comunicación de un lado a otro hay que elegir un canal dependiendo las perturbaciones que existan
+se elije uno o el otro.
+
+Tipos de Perturbaciones: analógicas o digiatales
+
+Para que un sistema de comunicación esté completo tiene que tener un protocolo:
+    Define muchas cosas (están en la presentación) ¡NO CONFUNDIR CON LOS ESTANDARES!!.
+
+    Nosotros para comunicarnos necesitmoas que exista un protocolo. En la clase que se está cumpliendo sin decirlo, sin que exista
+    la necesidad de aclararlo, el profesor habla y nosotros esucchamos. Y si alguien quiere consultar, levanta la mano y se le da
+    la palabra.
+    El idioma utilizado es algo también dado por el protocolo, se cumple. El lenguaje que hay que usar es el castellano. Son cosas
+    que ya vienen incorporados
+
+    Estándares NO ES LO MISMO que los protocolos.
+
+    Estándares:
+        "de jure": fueron legislados y aprobados por instituciones como la IEEE (dedicado a que haya un único criterio para fabricar )
+        "de facto": que no fueron votados por alguna institución pero que fueron adoptados por la mayoría
+
+Redes de datos (redes de computadoras):
+--------------------------------------
+
+    Es una interconexión entre varios dispositivos qu euqiernen capaces de conectarse entre si.
+    Lo qu einteresa en esta materia es cuándo conviene la analógica o la digital, etc.
+
+    Se pueden clasificar de varias maneras que están en la filmina.
+
+    Alcance tiene que ver con si es una área local personal (están todo en la filmina), amplia. Se pretende que se sepa la diferencia entre si.
+
+    Cuál es de mayor alcance (si la lan o la personal).
+    Cómo se clasifican las redes según el canal :
+        guiados o alámbricos (medio físico)
+        inalámbricos (red de ondas, etc)
+
+    Relación funcional: reconocer la diferencia entre las dos.
+
+    Segun la tecnología, etc.
+
+    Según la topología (esto se pregunta):
+	Configuración estrella ventaja (si se rompe uno de los nodos, el sistema sigue funcionando), pero el problema es que
+	depende de un nodo central
+        El anillo el problema es que deja de funcionar uno dejan de funcionar todo.
+
+    Halfduplex: similar a una carretera, donde pueden ir en ambos sentidos, sólo pasa uno a la vez.
+
+Internet:
+---------
+    hay que ver el material complementarios (el último de los videos). Explica los niveles de los ISP  y cómo es la estructura de Internet.
+
