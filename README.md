@@ -9,7 +9,7 @@
 
 # Información Y Comunicación
 
-Lista de documentos:
+## Lista de documentos:
 + Trabajos prácticos
 + Apuntes de la materia
 + Imagenes de los TPs
