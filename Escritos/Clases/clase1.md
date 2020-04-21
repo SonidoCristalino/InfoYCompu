@@ -1,26 +1,27 @@
-Información y comunicación: Clase 1
+# Información y comunicación: Clase 1
 -----------------------------------
 
-Sólo se aspira a aprobar la cursada, directamente a final.
+	- Sólo se aspira a aprobar la cursada, directamente a final.
+	- Examen diagnósticos a través del campus, con preguntaas conceptuales para aprobar. Si aprobamos todo, quizás se pueda
+	  defender un TP.
+	- Se pide que haya una oportunidad presencial.
 
-Medios de comunicación:
+# Medios de comunicación:
 ----------------------
-    Campus: videos, textos, cosas complementarios, actividades. Luego de la 3 clase va a ser un cuestionario por el campus (es por
-    tiempo el cuestionario).
-    Zoom: De 17 a 19hs los días martes.
-    ClassRoom: luego va a pasar la clave. Acá tienen que ir toda las consultas.
-    Todos están en el Repositorio.
+    - Campus: videos, textos, cosas complementarios, actividades. Luego de la 3 clase va a ser un cuestionario por el campus (es
+      por tiempo el cuestionario).
+    - Zoom: De 17 a 19hs los días martes.
+    - ClassRoom: luego va a pasar la clave. Acá tienen que ir toda las consultas. Todos están en el Repositorio.
 
 Configurar el recibir un mail del campus para nueva actividad:
-
 Luego de la tercer clase se da práctica para hacer en el campus: de tipo multiplechoice, y esas cosas. Hay que leer.
 
 Lo primero es leer la Hoja de Ruta. En el Plan de trabajo está el cronograma de la materia (es tentativo).
     Hay que hacer esto: https://campus.unaj.edu.ar/mod/forum/discuss.php?d=10765
     Bajar los materiales de la primer clase 1: https://campus.unaj.edu.ar/mod/book/view.php?id=39562
 
-Filmina nº 1:
-------------
+# Filmina nº 1:
+--------------
 	Los power point de la introducción son para leerlo por nuestra cuenta. Las comunicaciones a lo largo de la historia.
 
 	Información: conjunto de datos ordenados y supervisados que construyen un mensaje. El sujeto o sistema quien recibe este
@@ -52,19 +53,19 @@ Filmina nº 1:
 	2000: Google
 	2004: Redes sociales.
 
-Informática:
+## Informática:
 	Ciencia que estudia el procesamiento de la información mediante medios automáticos (dispositivos electrónicos y sistemas
 	computacionales).
 
-Revolución Informática: Período de avances tecnológicos desde mediados del S. XX hasta la actualidad. Esta evolución fue gracias
+*Revolución Informática*: Período de avances tecnológicos desde mediados del S. XX hasta la actualidad. Esta evolución fue gracias
 al avance tanto del estudio de materiales y propiedades microscópicas como del estudio de dispositivos semiconductores, los cuales
 permiten almacenar en una porción muy pequeña de espacio millones de elementos activos.
 
 El impacto de la transmisión de datos y las redes de comunicaciones es más que evidente ya que todo hoy en día se basan en
 desiciones basadas en la tecnología.
 
-Filmina nº 2:
-------------
+# Filmina nº 2:
+--------------
 
 El modelo más simple que tenemos es aquel que nos permite conceptualizar elementos necesarios para la comunicación de datos:
 Emisor-Canal-Receptor y el Mensaje.
@@ -82,21 +83,19 @@ descriptos, lo mismo que lo que sería ahora comunicación con celular (más act
 
 ¿Como se mide la efectividad de un sistema de comunicaciones? En base a 3 parámetros:
 
-	Entrega: los datos se deben entregar al destino correcto.
-
-	Exactitud: El sistema debe entregar los datos con exactitud. Aquellos datos que sean alterados en la transmisión son
-	incorrectos y no deberán de ser utilizados.
-
-	Puntualidad: se deben entregar con puntualidad. Los datos entregados tarde, no sirven.
+	- Entrega: los datos se deben entregar al destino correcto.
+	- Exactitud: El sistema debe entregar los datos con exactitud. Aquellos datos que sean alterados en la transmisión son
+	  incorrectos y no deberán de ser utilizados.
+	- Puntualidad: se deben entregar con puntualidad. Los datos entregados tarde, no sirven.
 
 Elementos básicos para un sistema de comunicación:
 	Emisor -> Canal -> Receptor
 		 Mensaje (información o datos a comunicar).
 
-Sistema de comunicación:
+## Sistema de comunicación:
 	Conjunto de elementos que hacen posible la transferencia de información entre puntos distantes.
 
-La comunicación de datos difiere porquese agregan cosas:
+## La comunicación de datos difiere porquese agregan cosas:
 	Emisor: Fuente de información y transmisor. La fuente de información, sería el cerebro del profesor el transmisor las cuerdas
 	vocales del profesor.
 	Canal (en caso de que sea presencial): es el aire
@@ -105,17 +104,11 @@ La comunicación de datos difiere porquese agregan cosas:
 	Cerebro del alumno
 
 Según la filmina se puede clasificar:
-
-	Fuente de Información: Elemento que genera la información. Esta puede ser analógica o digital.
-
-	Analógica: La información a transmitir es una señal continua en el tiempo x(t). Ej: Voz (salida de un micrófono),
-	temperatura (salida de un sensor).
-
-	Digital: La información consiste en símbolos perteneciente a un
-	alfabeto finito y se envía a intervalos de tiempo fijo.
-
-	Canal: Medio físico por el que se envía la información. Puede introducir perturbaciones en la señal de la información.
-
+	- Fuente de Información: Elemento que genera la información. Esta puede ser analógica o digital.
+	- Analógica: La información a transmitir es una señal continua en el tiempo x(t). Ej: Voz (salida de un micrófono),
+	  temperatura (salida de un sensor).
+	- Digital: La información consiste en símbolos perteneciente a un alfabeto finito y se envía a intervalos de tiempo fijo.
+	- Canal: Medio físico por el que se envía la información. Puede introducir perturbaciones en la señal de la información.
 
 ¿Es la única manera de transmitir un mensaje? NO, lo ideal sería estar en la UNAJ y que sea presencial.
 Dadas las circunstancias se establece otro canal (remota).
@@ -133,7 +126,8 @@ se elije uno o el otro.
 Para que un sistema de comunicación esté completo tiene que tener un protocolo:
     Define muchas cosas (están en la presentación) ¡NO CONFUNDIR CON LOS ESTANDARES!!.
 
-Protocolo: Un protocolo es un conjunto de reglas que regulan las comunicaciones de datos.  Un protocolo define qué se
+## Protocolo
+Un protocolo es un conjunto de reglas que regulan las comunicaciones de datos.  Un protocolo define qué se
 comunica, cómo se comunica y cuando es comunicado. Los elementos clave de un protocolo son: 
 
 	Sintaxis: Es la estructura o el formato de los datos. Es decir, el orden en que son presentados. Ej.: Los primeros 8 bits
@@ -165,21 +159,20 @@ nacional e internacional.  Algunas de estas agencias y comités son:
 	- Institute of Electrical and Electronics Engineers (IEEE).
 	- Electronic Industries Association (EIA).
 
-Redes de datos (redes de computadoras):
---------------------------------------
+# Redes de datos (redes de computadoras):
+----------------------------------------
 
 Es una interconexión entre varios dispositivos que son capaces de conectarse entre si, a través de un medio físico para el
 transporte de datos con la finalidad de compartir información, recursos y ofrecer servicios.
 Lo que interesa en esta materia es cuándo conviene un canal analógica o el digital, etc.
 
 Los dispositivos suelen denominarse nodos y son clasificados como:
-	- Nodo anfitrión o Host: son los encargados de producir el mensaje que fluirá a través de la red (PC, servidores,
+	- *Nodo anfitrión o Host*: son los encargados de producir el mensaje que fluirá a través de la red (PC, servidores,
 	  celulares, etc).
-	- Nodos de comunicación: los encargados de de dirigir los mensajes por las rutas adecuadas para alcanzar su destino
+	- *Nodos de comunicación*: los encargados de de dirigir los mensajes por las rutas adecuadas para alcanzar su destino
 	  (routers, switchs, etc).
 
 Las redes se pueden clasificar de varias maneras distintas:
-	
 	* Alcance.
 	* Canal.
 	* Relación funcional.
@@ -189,29 +182,29 @@ Las redes se pueden clasificar de varias maneras distintas:
 	* Grado de difusión.
 
 
-Clasificación según su alcance:
+## Clasificación según su alcance:
 
-	PAN: Personal Area Network (Red de área personal) : Es una red utilizada para la comunicación entre dispositivos
+	- PAN: Personal Area Network (Red de área personal) : Es una red utilizada para la comunicación entre dispositivos
 	(computadoras, impresoras, puntos de acceso a internet, teléfonos celulares) cercanos entre sí.
 	El alcance de una PAN es típicamente de algunos metros. Se pueden conectar a través del puerto USB o por Bluetooth.
 
-	LAN: Local Area Network (Red de Área Local) Es una red que se limita a un área especial relativamente pequeña tal como una
+	- LAN: Local Area Network (Red de Área Local) Es una red que se limita a un área especial relativamente pequeña tal como una
 	oficina, un edificio, un campus o un avión. Son generalmente de propiedad privada.  Están formadas en su mayoría por Host.
 	Las LAN pueden estar conectadas entre sí y pueden conectarse con redes de más alto nivel.
 
-	MAN: Metropolitan Area Network (Red de área Metropolitana): Es una red de alta velocidad (banda ancha) que da cobertura en
+	- MAN: Metropolitan Area Network (Red de área Metropolitana): Es una red de alta velocidad (banda ancha) que da cobertura en
 	un área geográfica más extensa que un Campus, pero aun así limitado. Por ejemplo, una red que interconecte los edificios
 	públicos de un municipio dentro de la localidad por medio de fibra óptica.
 	Las MAN pueden conectar varias LAN que no estén entre ellas a más de 50 km de distancia. Por ejemplo, una empresa puede
 	usar una MAN para conectar las LAN de todas sus oficinas dispersas por la ciudad.
 
-	WAN: Wide Area Network (Red de Área Amplia) Es una red que se extiende sobre grandes áreas geográficas (un país, un
+	- WAN: Wide Area Network (Red de Área Amplia) Es una red que se extiende sobre grandes áreas geográficas (un país, un
 	continente o incluso el mundo entero) utilizando medios como: satélites, cables interoceánicos, internet, fibra ópticas
 	públicas, etc.
 	Formadas en su mayoría por nodos de comunicación.
 	[Obtener la imagen de la filmina]
 
-Clasificación según el Canal:
+## Clasificación según el Canal:
 
 	Medios de transimisión guiados: El canal por el que se transmiten las señales es un medio físico, por ejemplo:
 		- Cable de par trenzado
@@ -223,7 +216,7 @@ Clasificación según el Canal:
 		- Radiofrecuencias (ondas de radio)
 		- Microondas (terrestres o satelitales)
 
-Clasificación según su Relación Funcional
+## Clasificación según su Relación Funcional
 
 	Cliente-Servidor: Una red Cliente-Servidor es una red en la que al menos un nodo (servidor) es el encargado de controlar y
 	ofrecer los diferentes recursos y servicios al resto de los nodos (clientes) que lo soliciten
@@ -234,7 +227,7 @@ Clasificación según su Relación Funcional
 
 	[Obtener la imagen de la filmina]
 
-Clasificación según su Tecnología
+## Clasificación según su Tecnología
 
 	Conexión punto a punto: Una red punto a punto es aquella en la que cada canal de datos se usa para comunicar únicamente
 	dos nodos.
@@ -244,7 +237,10 @@ Clasificación según su Tecnología
 
 	[Las imagenes de la filmina son bastante intuitivas]
 
-Clasificación según su Topología:
+## Clasificación según su Topología:
+
+El término *topología* se refiere a la forma en que está diseñada la red (representación geométrica de la relación entre todos los
+canales y los nodos entre sí).  Dos o más nodos se conectan a un canal. Dos o más canales forman una topología.
 
 	Bus: Las estaciones están conectadas por un único segmento de cable. A diferencia del anillo, el bus es pasivo, no se
 	produce regeneración de las señales en cada nodo.
@@ -350,26 +346,29 @@ Clasificación según su Topología:
 		- Estrella jerárquica: esta estructura de cableado se utiliza en la mayor parte de las redes locales actuales, por
 		  medio de concentradores dispuestos en cascada para formar una red jerárquica.
 
-Clasificación según su Direccionabilidad:
+## ¿Qué cosas se deben tener en cuenta a la hora de elegir una topología?
+Un aspecto importante a considerar es la relación funcional entre los nodos (red Peer to Peer o red Cliente-Servidor).
+	- Las topologías ANILLO y MALLA son más convenientes para la relación funcional P2P.
+	- Las topologías ARBOL y ESTRELLA son más convenientes para C-S.
+	- La topología BUS se adapta bien a cualquiera de las dos relaciones funcionales.
 
-	a) Simplex: la comunicación solo es posible en un sentido (Ej: Radiodifusión).
-	b) Half-Duplex: ambos sentidos alternativamente (Ej: Radiocomunicaciones).
-		Halfduplex: similar a una carretera, donde pueden ir en ambos sentidos, sólo pasa uno a la vez.
-	c) Full-Duplex: existe un intercambio de información en ambos sentidos
+
+## Clasificación según su Direccionabilidad:
+
+	a. Simplex: la comunicación solo es posible en un sentido (Ej: Radiodifusión).
+	b. Half-Duplex: ambos sentidos alternativamente (Ej: Radiocomunicaciones).  Halfduplex: similar a una carretera, donde
+	pueden ir en ambos sentidos, sólo pasa uno a la vez.
+	c. Full-Duplex: existe un intercambio de información en ambos sentidos
 
 
 Clasificación según Grado de Difusión:
 
 	- Una intranet es una red privada de computadoras que utiliza tecnología de Internet para compartir dentro de una
 	  organización parte de sus sistemas de información y sistemas operacionales.
-
 	- La Internet es un conjunto descentralizado de redes de comunicación interconectadas que utilizan la familia de
 	  protocolos TCP/IP, garantizando que las redes físicas heterogéneas que la componen funcionen como una red lógica única,
 	  de alcance mundial.  Sus orígenes se remontan a 1969, cuando se estableció la primera conexión de computadoras, conocida
 	  como ARPANET, entre tres universidades en California (USA).
-
-
-
 
 
 Alcance tiene que ver con si es una área local personal (están todo en la filmina), amplia. Se pretende que se sepa la diferencia entre si.
@@ -388,8 +387,8 @@ depende de un nodo central
 El anillo el problema es que deja de funcionar uno dejan de funcionar todo.
 
 
-Internet:
----------
+# Internet:
+-----------
     hay que ver el material complementarios (el último de los videos). Explica los niveles de los ISP  y cómo es la estructura de Internet.
 
 	El Proveedor de Servicios de Internet (ISP, Internet Service Provider) es la empresa que brinda conexión a internet a sus
