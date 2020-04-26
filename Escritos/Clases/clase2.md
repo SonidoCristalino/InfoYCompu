@@ -2,38 +2,38 @@
 
 # Modelo capa de redes
 Modelo de capas: 1980. Debido a la cantidad grande de redes, se tuvo que estandarizar los diferentes sistemas, dado que cada uno
-de las redes trabajan con distintas formas, distitnos ruters, protocolos, etc. Se trató de unificar criterios.  Protocolo nos
+de las redes trabajan con distintas formas, distintos ruters, protocolos, etc. Se trató de unificar criterios.  Protocolo nos
 dicen las reglas que deben seguir en la comunicación.
 
 # Protocolo
 Un protocolo define las reglas que deben seguir tanto el emisor como el receptor y todos los dispositivos intermedios para poder
 comunicarse de manera efectiva.
 
-	Capas: la función de las capas es dividir las tareas en cada una de ellas. Cada capa utiliza un protocolo distitno para
+	Capas: la función de las capas es dividir las tareas en cada una de ellas. Cada capa utiliza un protocolo distinto para
 	esos trabajos que tienen que hacer.
 		- El ejemplo que está en las filminas es de dos amigas que se cruzan por la calle y los protocolos que se dan por
 		  sobre entendidos sobre cómo se entabla esa conversación.
-		- Otro ejemplo distinto peude ser el profesor delante de la clase, el protocolo ya cambia con respecto al anterior
+		- Otro ejemplo distinto puede ser el profesor delante de la clase, el protocolo ya cambia con respecto al anterior
 		  porque el profesor realiza un monólogo, los alumnos tienen que levantar la mano para hablar, etc.
-		- En la filmina hay un ejemplo de las distintas capas implementandose con el servicio postal para la emisión de
+		- En la filmina hay un ejemplo de las distintas capas implementándose con el servicio postal para la emisión de
 		  una carta (Como el ejemplo del avión de Kurose).
 
-	Beneficios:
+	* Beneficios:
 		- Ayuda en el diseño de protocolos, al tener menos funciones.
-		- Los cambios en una capa son transparentes para el resto. (Es posible cambiar el protocolo de una capa sin que el resto
-		  se entere).
-		- Facilita la mantención y actualización del sistema y permite la identificación y relación de las partes
+		- Los cambios en una capa son transparentes para el resto. (Es posible cambiar el protocolo de una capa sin que el
+		  resto se entere).
+		- Facilita el mantenimiento y actualización del sistema y permite la identificación y relación de las partes
 		  complejas de éste.
 
-	Restricciones:
+	* Restricciones:
 		- La finalidad de cada capa es darle servicio a inmediata superior.
 		- Una capa sólo utiliza servicios de la capa inferior.
-		- La primera capa sólo es la que puede accerder a los medios de transmisión.
+		- La primera capa sólo es la que puede acceder a los medios de transmisión.
 
 
-	Lo que sucede en una capa, es transparente de lo que sucede en las demás. Los beneficios de tener un modelo de capa, es
-	facilitar la mantención del sistema, los cambios son más fáciles y transparentes para el resto. También ayuda a diseñar
-	las funciones que implementará cada capa
+Lo que sucede en una capa, es transparente de lo que sucede en las demás. Los beneficios de tener un modelo de capa, es facilitar
+el mantenimiento del sistema, los cambios son más fáciles y transparentes para el resto. También ayuda a diseñar las funciones que
+implementará cada capa
 
 # Capas de Red
 ¿Por qué se organiza en capas? Porque ayuda a organizar y a identificar las relaciones de elementos de un sistema complejo como
@@ -67,14 +67,14 @@ seguridad que para ello se mete una nueva capa que utiliza el protocolo SSL.
 	  arquitectura de red.
 	- El objetivo del Modelo OSI es permitir la comunicación entre sistemas distintos sin requerir cambios en la lógica del
 	  hardware o del software de cada uno.
-	- NO tuvo exito el modelo , pero se convirtió en modelo de estudio.
+	- NO tuvo éxito el modelo, pero se convirtió en modelo de estudio.
 
 # Modelo OSI de 7 capas.
-	- Fisica: responsable del movimiento de los bits individuales de un nodo al siguiente. Características del medio, cómo
+	- Física: responsable del movimiento de los bits individuales de un nodo al siguiente. Características del medio, cómo
 	  deben ser los mensajes de bits, etc.
-	  Es la capa más baja del modelo OSI. Es la que se encarga de la topología de red y de las conexiones globales de
-	  la computadora hacia la red, se refiere tanto al medio físico como a la forma en la que se transmite la
-	  información y de las redes
+	  Es la capa más baja del modelo OSI. Es la que se encarga de la topología de red y de las conexiones globales de la
+	  computadora hacia la red, se refiere tanto al medio físico como a la forma en la que se transmite la información y de
+	  las redes
 
 	- Enlace: mueve las tramas de manera confiable a lo largo de los nodos.  Esta capa se ocupa del direccionamiento físico,
 	  del acceso al medio, de la detección de errores, de la distribución ordenada de tramas y del control del flujo.
@@ -83,8 +83,8 @@ seguridad que para ello se mete una nueva capa que utiliza el protocolo SSL.
 	  entre computadoras, determinando el paso de tramas (unidad de medida de la información en esta capa, que no es más que
 	  la segmentación de los datos trasladándolos por medio de paquetes), verificando su integridad, y corrigiendo errores.
 
-	- Red: Se encarga de identificar el enrutamiento existente entre una o más redes. Las unidades de datos se denominan
-	  paquetes, y se pueden clasificar en protocolos enrutables y protocolos de enrutamiento.
+	- Red: Se encarga de identificar la ruta existente entre una o más redes. Las unidades de datos se denominan paquetes, y
+	  se pueden clasificar en protocolos enrutables y protocolos de enrutamiento.
 
 	- Transporte: Capa encargada de efectuar el transporte de los datos (que se encuentran dentro del paquete) de la máquina
 	  origen a la de destino, independientemente del tipo de red física que esté utilizando.
@@ -92,8 +92,8 @@ seguridad que para ello se mete una nueva capa que utiliza el protocolo SSL.
 	- Sesión: Esta capa es la que se encarga de mantener y controlar el enlace establecido entre dos computadores que están
 	  transmitiendo datos de cualquier índole. Por lo tanto, el servicio provisto por esta capa es la capacidad de asegurar
 	  que, dada una sesión establecida entre dos máquinas, la misma se pueda efectuar para las operaciones definidas de
-	  principio a fin, reanudándolas en caso de interrupción.10​ En muchos casos, los servicios de la capa de sesión son
-	  parcial o totalmente prescindibles.
+	  principio a fin, reanudándolas en caso de interrupción. En muchos casos, los servicios de la capa de sesión son parcial
+	  o totalmente prescindibles.
 
 	- Presentación: El objetivo es encargarse de la representación de la información, de manera que, aunque distintos equipos
 	  puedan tener diferentes representaciones internas de caracteres, los datos lleguen de manera reconocible.
