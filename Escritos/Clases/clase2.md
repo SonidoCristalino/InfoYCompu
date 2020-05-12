@@ -1,11 +1,13 @@
 
 
 # Modelo capa de redes
+----------------------
 Modelo de capas: 1980. Debido a la cantidad grande de redes, se tuvo que estandarizar los diferentes sistemas, dado que cada uno
 de las redes trabajan con distintas formas, distintos ruters, protocolos, etc. Se trató de unificar criterios.  Protocolo nos
 dicen las reglas que deben seguir en la comunicación.
 
 # Protocolo
+-----------
 Un protocolo define las reglas que deben seguir tanto el emisor como el receptor y todos los dispositivos intermedios para poder
 comunicarse de manera efectiva.
 
@@ -31,9 +33,32 @@ comunicarse de manera efectiva.
 		- La primera capa sólo es la que puede acceder a los medios de transmisión.
 
 
+## Principios de las capas de Protocolos (Forouzan):
+----------------------------------------------------
+
+- Primer principio: Se establece que si queremos una comunicación bidireccional entonces deberemos construir cada capa para
+  permita realizar tareas opuestas, cada una en una dirección.
+- Segundo prinicpio: El segundo pincipio establece que cada capa que se encuentre a ambos extremos de la conexión serán totalmente
+  iguales (la capa que se encarga da le encriptación será al otro extremo de la comunicación igual a ella).
+
 Lo que sucede en una capa, es transparente de lo que sucede en las demás. Los beneficios de tener un modelo de capa, es facilitar
 el mantenimiento del sistema, los cambios son más fáciles y transparentes para el resto. También ayuda a diseñar las funciones que
 implementará cada capa
+
+
+# ¿Cómo es el flujo del mensaje? (Sacado de la clase nº 2):
+	- El navegador genera un mensaje HTTP (capa de Aplicación). Y se lo pasa a la capa inferior.
+	- La capa de Transporte toma este mensaje, lo encapsula y le añade una cabecera propia para transformarlo en un segmento.
+	  Luego lo pasa a la capa inferior.
+	- La capa de Red, toma este segmento, lo vuelve a encapsular y le añade una cabecera propia, transformandolo en un
+	  datagrama.
+	- La capa de Enlace toma nuevamente este datagrama y le añade su propia cabecera para convertirlo en una trama que será
+	  transmitida por la última capa (La capa Física).
+	- La capa Física es la encargada de transportar esta trama a través de los distintos enlaces hasta el host destino.
+
+Todo este flujo se denomina *encapsulamiento*. Cuando la trama llega al destino, el host que lo recibe debe *desencapsularlo*
+(realizando el proceso inverso antes descripto) donde cada capa mira el encabezado que le corresponde, y lo pasa a la capa
+superior.
 
 # Capas de Red
 ¿Por qué se organiza en capas? Porque ayuda a organizar y a identificar las relaciones de elementos de un sistema complejo como
@@ -107,27 +132,6 @@ seguridad que para ello se mete una nueva capa que utiliza el protocolo SSL.
 	  gestores de bases de datos y servidor de ficheros (FTP). Hay tantos protocolos como aplicaciones distintas y puesto que
 	  continuamente se desarrollan nuevas aplicaciones el número de protocolos crece sin parar.
 
-# Capas de Red
-¿Por qué se organiza en capas? Porque ayuda a organizar y a identificar las relaciones de elementos de un sistema complejo como
-son las redes de ordenadores. La modularización facilita el mantenimiento y la actualización del sistema. Algunas funcionalidades
-se implementan en varias capas y a veces se necesita información para una capa, que se encuentra en otra distinta que la propia,
-perdiendo la independencia entre ellas.
-Hay servicios que si no están implementados en la capa, se pueden introducir metiendo capas intermedias, como por ejemplo la
-seguridad que para ello se mete una nueva capa que utiliza el protocolo SSL.
-
-# Pila de Protocolos de Internet en el modelo TCP / IP
-	1. Aplicación: Es la capa más cerca al usuario y donde se encuentran las aplicaciones de red que intercambian *MENSAJES*.
-	   Los protocolos utilizados en este capa son por ejemplo: FTP,SMTP, HTTP.  Esta capa le pasa los mensajes que quiere
-	   enviar a su capa inferior.
-	2. Transporte: La capa de transporte recibe ese mensaje y mediante un programa, lo convierte en los denominados
-	   *SEGMENTOS* pasando estos a la capa inferior. Los protocolos por ejemplo son: TCP o UDP.
-	3. Red(IP): La capa de Red de internet se caracteriza por tener un único protocolo, que es el denominado IP (Internet
-	   Protocol), el mismo convierte el segmento en *DATAGRAMAS* para enviarlos desde la máquina de origen a la máquina
-	   destino.
-	4. Enlace: Esta capa, toma el datagrama de la capa superior y la convierte en una *TRAMA* que enviará al siguiente
-	   elemento de la red y NO al final, puede ser enviado por 3G, Wifi, WiMax, fibra óptica, o el enlace que sea.
-	5. Física: En esta capa se encuentra el enlace físico: Cable o aire, por el que van a viajar los bits.
-
 # Descripción de la Capa FISICA:
 	Coordina las funciones necesarias para transmitir el flujo de datos (secuencia de bits) de un lugar a otro, a través de un
 	medio físico (canal o enlace). Es decir, que se encarga de establecer y finalizar la comunicación con el medio.  La Capa
@@ -158,8 +162,8 @@ superior.
 
 En la arquitectura que más se usa es la TCP/IP, se compara con el de OSI. En la página 16 explica qué dispositivos trabajan en
 en cada una de las capas. Por ejemplo:
-	Switch hasta la capa de enlace
-	Routers hasta capa de internet
+	- Switch hasta la capa de enlace
+	- Routers hasta capa de internet
 
 # Dispositivos de Red
 	- Conmutador de red (switch): Conmutador (switch) es el dispositivo digital lógico de interconexión de equipos que opera

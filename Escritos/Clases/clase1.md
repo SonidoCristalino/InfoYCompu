@@ -67,7 +67,7 @@ desiciones basadas en la tecnología.
 # Filmina nº 2:
 --------------
 
-El modelo más simple que tenemos es aquel que nos permite conceptualizar elementos necesarios para la comunicación de datos:
+El modelo más simple que tenemos es aquel que nos permite realizar un concepto elementos necesarios para la comunicación de datos:
 Emisor-Canal-Receptor y el Mensaje.
 
 Por ejemplo: Si estamos en una clase presencial, el Canal es el aire, el Mensaje sería la clase que se está dictando.  Receptor en
@@ -76,7 +76,7 @@ ese caso somos los alumnos y el Emisor el profesor.
 Lo que se considera como Dato: "Información presentada de determinada forma en las cuales las partes que los crean y usan se ponen
 de acuerdo"
 
-Comunciaciones de datos: "Intercambio de datos entre dos dispositivos a través de algún tipo de medio de transmisión".
+Comunicaciones de datos: "Intercambio de datos entre dos dispositivos a través de algún tipo de medio de transmisión".
 
 La imagen de los tambores, se puede considerar como una comunicación, es rudimentario pero tiene todos los elementos antes
 descriptos, lo mismo que lo que sería ahora comunicación con celular (más actual)
@@ -87,10 +87,6 @@ descriptos, lo mismo que lo que sería ahora comunicación con celular (más act
 	- Exactitud: El sistema debe entregar los datos con exactitud. Aquellos datos que sean alterados en la transmisión son
 	  incorrectos y no deberán de ser utilizados.
 	- Puntualidad: se deben entregar con puntualidad. Los datos entregados tarde, no sirven.
-
-Elementos básicos para un sistema de comunicación:
-	Emisor -> Canal -> Receptor
-		 Mensaje (información o datos a comunicar).
 
 ## Sistema de comunicación:
 	Conjunto de elementos que hacen posible la transferencia de información entre puntos distantes.
@@ -114,12 +110,12 @@ Según la filmina se puede clasificar:
 Dadas las circunstancias se establece otro canal (remota).
 Puede ser también de otra forma como ser el lenguaje de señas o con la mano escribiendo un papel o carta.
 
-Clsae en la UNAJ con la puerta cerrada y de repente se abre la puerta y hay mucha gente afuera, con mucho ruido, por lo que los
-alumnos dejan de oir al profesor, por lo que hay una perturbación en el canal y puede que no llegue a destino de la forma en que
+Clase en la UNAJ con la puerta cerrada y de repente se abre la puerta y hay mucha gente afuera, con mucho ruido, por lo que los
+alumnos dejan de oír al profesor, por lo que hay una perturbación en el canal y puede que no llegue a destino de la forma en que
 fue pensada.
 
 Dentro del sistema de comunicación existe lo que se denomina perturbaciones
-Tipos de Perturbaciones: analógicas o digiatales
+Tipos de Perturbaciones: analógicas o digitales
 Cuando se quiere transmitir una comunicación de un lado a otro hay que elegir un canal dependiendo las perturbaciones que existan
 se elije uno o el otro.
 
@@ -128,29 +124,30 @@ Para que un sistema de comunicación esté completo tiene que tener un protocolo
 
 ## Protocolo
 Un protocolo es un conjunto de reglas que regulan las comunicaciones de datos.  Un protocolo define qué se
-comunica, cómo se comunica y cuando es comunicado. Los elementos clave de un protocolo son: 
+comunica, cómo se comunica y cuando es comunicado. Los elementos clave de un protocolo son:
 
-	Sintaxis: Es la estructura o el formato de los datos. Es decir, el orden en que son presentados. Ej.: Los primeros 8 bits
-	pueden ser la dirección del origen, los 8 siguientes del destinatario y el resto el mensaje.
-
-	Semántica: Cómo el conjunto de bits es interpretado.
-	
-	Temporización: Cuándo la información debe ser enviada y a que velocidad (Tasa de transferencia con respecto a la velocidad
+	- Sintaxis: Es la estructura o el formato de los datos. Es decir, el orden en que son presentados. Ej.: Los primeros 8
+	  bits pueden ser la dirección del origen, los 8 siguientes del destinatario y el resto el mensaje.
+
+	- Semántica: Cómo el conjunto de bits es interpretado.
+
+	- Temporización: Cuándo la información debe ser enviada y a que velocidad (Tasa de transferencia con respecto a la velocidad
 	de procesamiento del receptor).
 
 Ejemplo:
-	Nosotros para comunicarnos necesitmoas que exista un protocolo. En la clase que se está cumpliendo sin decirlo, sin que
-	exista la necesidad de aclararlo, el profesor habla y nosotros esucchamos. Y si alguien quiere consultar, levanta la mano
+	Nosotros para comunicarnos necesitamos que exista un protocolo. En la clase que se está cumpliendo sin decirlo, sin que
+	exista la necesidad de aclararlo, el profesor habla y nosotros escuchamos. Y si alguien quiere consultar, levanta la mano
 	y se le da la palabra.
 	El idioma utilizado es algo también dado por el protocolo, se cumple. El lenguaje que hay que usar es el castellano. Son
 	cosas que ya vienen incorporados
 
 Recordar que Estándares NO ES LO MISMO que los protocolos.
 
-Estándares: Los estándares provén una guía a los fabricantes para asegurar una correcta interconexión de los dispositivos que
-existen actualmente en el mercado. Hay dos tipos de estándares:
-        "de jure": fueron legislados y aprobados por instituciones como la IEEE (dedicado a que haya un único criterio para fabricar )
-        "de facto": que no fueron votados por alguna institución pero que fueron adoptados por la mayoría
+- Estándares: Los estándares provén una guía a los fabricantes para asegurar una correcta interconexión de los dispositivos que
+  existen actualmente en el mercado. Hay dos tipos de estándares:
+	* "de jure": fueron legislados y aprobados por instituciones como la IEEE (dedicado a que haya un único criterio para
+	  fabricar).
+	* "de facto": que no fueron votados por alguna institución pero que fueron adoptados por la mayoría.
 
 Los estándares son desarrollados a través de la cooperación de comités, foros y agencias gubernamentales de regulación a nivel
 nacional e internacional.  Algunas de estas agencias y comités son:
@@ -161,9 +158,9 @@ nacional e internacional.  Algunas de estas agencias y comités son:
 
 # Redes de datos (redes de computadoras):
 ----------------------------------------
-
 Es una interconexión entre varios dispositivos que son capaces de conectarse entre si, a través de un medio físico para el
 transporte de datos con la finalidad de compartir información, recursos y ofrecer servicios.
+
 Lo que interesa en esta materia es cuándo conviene un canal analógica o el digital, etc.
 
 Los dispositivos suelen denominarse nodos y son clasificados como:
@@ -256,7 +253,7 @@ canales y los nodos entre sí).  Dos o más nodos se conectan a un canal. Dos o 
 	Desventajas
 		- Hay un límite de equipos dependiendo de la calidad de la señal.
 		- Puede producirse degradación de la señal.
-		- Complejidad de reconfiguración y aislamiento de fallos.
+		- Complejidad de re-configuración y aislamiento de fallos.
 		- Limitación de las longitudes físicas del canal.
 		- Un problema en el canal usualmente degrada toda la red.
 		- El desempeño se disminuye a medida que la red crece.
@@ -270,13 +267,13 @@ canales y los nodos entre sí).  Dos o más nodos se conectan a un canal. Dos o 
 
 	Ventajas:
 		- Posee un sistema que permite agregar nuevos equipos fácilmente.
-		- Reconfiguración rápida.
+		- Re-configuración rápida.
 		- Fácil de prevenir daños y/o conflictos.
 		- Centralización de la red.
 		- Fácil de encontrar fallos
 
 	Desventajas:
-		- Si el hub (repetidor) o switch central falla, toda la red deja de transmitir.
+		- Si el HUB (repetidor) o switch central falla, toda la red deja de transmitir.
 		- Es costosa, ya que requiere más cables que las topologías en bus o anillo.
 		- El cable viaja por separado del concentrador a cada computadora.
 
@@ -346,6 +343,12 @@ canales y los nodos entre sí).  Dos o más nodos se conectan a un canal. Dos o 
 		- Estrella jerárquica: esta estructura de cableado se utiliza en la mayor parte de las redes locales actuales, por
 		  medio de concentradores dispuestos en cascada para formar una red jerárquica.
 
+Algunas posibles preguntas:
+
+- Configuración estrella ventaja (si se rompe uno de los nodos, el sistema sigue funcionando), pero el problema es que depende de
+  un nodo central
+- El anillo el problema es que deja de funcionar uno dejan de funcionar todo.
+
 ## ¿Qué cosas se deben tener en cuenta a la hora de elegir una topología?
 Un aspecto importante a considerar es la relación funcional entre los nodos (red Peer to Peer o red Cliente-Servidor).
 	- Las topologías ANILLO y MALLA son más convenientes para la relación funcional P2P.
@@ -371,36 +374,117 @@ Clasificación según Grado de Difusión:
 	  como ARPANET, entre tres universidades en California (USA).
 
 
-Alcance tiene que ver con si es una área local personal (están todo en la filmina), amplia. Se pretende que se sepa la diferencia entre si.
+Alcance tiene que ver con si es una área local personal (están todo en la filmina), amplia. Se pretende que se sepa la diferencia
+entre si.
 
-Cuál es de mayor alcance (si la lan o la personal).
-Cómo se clasifican las redes según el canal : guiados o alámbricos (medio físico)
-inalámbricos (red de ondas, etc)
+* Cuál es de mayor alcance (si la LAN o la personal).
+* Cómo se clasifican las redes según el canal : guiados o alambricos (medio físico) inalámbricos (red de ondas, etc)
 
-Relación funcional: reconocer la diferencia entre las dos.
-
-Segun la tecnología, etc.
-
-Según la topología (esto se pregunta):
-Configuración estrella ventaja (si se rompe uno de los nodos, el sistema sigue funcionando), pero el problema es que
-depende de un nodo central
-El anillo el problema es que deja de funcionar uno dejan de funcionar todo.
+Relación funcional: reconocer la diferencia entre las dos.  Según la tecnología, etc.
 
 
 # Internet:
 -----------
-    hay que ver el material complementarios (el último de los videos). Explica los niveles de los ISP  y cómo es la estructura de Internet.
+    Hay que ver el material complementarios (el último de los videos). Explica los niveles de los ISP  y cómo es la estructura de Internet.
 
 	El Proveedor de Servicios de Internet (ISP, Internet Service Provider) es la empresa que brinda conexión a internet a sus
-	clientes. Un ISP conecta a sus usuarios a Internet a través de diferentes tecnologías como DSL, cablemódem, GSM, dial-up,
+	clientes. Un ISP conecta a sus usuarios a Internet a través de diferentes tecnologías como DSL, cable-módem, GSM, dial-up,
 	etc).
 	Los ISP tienen una organización jerárquica.
 
-		El centro son los llamados ISP-1 o de nivel 1 que tienen cobertura nacional e internacional. Entre sí se tratan
-		como iguales, se interconectan de forma privada entre ellos, es decir, sus conexiones sólo se conectan sólo a
-		ISP-1.
+		- El centro son los llamados ISP-1 o de nivel 1 que tienen cobertura nacional e internacional. Entre sí se tratan
+		  como iguales, se interconectan de forma privada entre ellos, es decir, sus conexiones sólo se conectan sólo a
+		  ISP-1.
 
-		Nivel-2 más pequeños, cuya cobertura es de tipo regional. Se conectan tanto a ISP-1 como también a ISP-2.
+		- Nivel-2 más pequeños, cuya cobertura es de tipo regional. Se conectan tanto a ISP-1 como también a ISP-2.
 
-		Nivel-3 locales, es el más cercano a los sistemas terminales. ISP-3 son clientes de ISP de mayor nivel que los que
-		conectan al resto de internet.
+		- Nivel-3 locales, es el más cercano a los sistemas terminales. ISP-3 son clientes de ISP de mayor nivel que los
+		  que conectan al resto de internet.
+
+
+# Forouzan:
+----------
+
+# Elementos básicos para un sistema de comunicación:
+---------------------------------------------------
+
+(Sacado de Fouruzan):
+	- Mensaje: información que quiere ser comunicada.
+	- Emisor: Es el dispositivo que enviará el mensaje.
+	- Receptor: Es el dispositivo que recibirá el mensaje.
+	- Medio de transmisión: es el medio físico por el cual el mensaje viajará desde el emisor al receptor.
+	- Protocolo: Es un conjunto de reglas que gobierna una comunicación de en donde se envían datos. Es un acuerdo que se
+	  establece entre los dispositivos que participan de la comunicación.
+
+La información que se transmite puede ser la siguiente:
+	- Texto: representados como una secuencia de bits.
+	- Números
+	- Imagenes
+	- Audio
+	- Video.
+
+Los datos pueden ser transmitidos de 3 formas distintas en una comunicación:
+	- Simplex: la información viaja en un solo sentido desde el emisor hacia el receptor
+	- Half-Duplex: la información viaja en ambos sentidos, desde el emisor al receptor, pero ocupando el canal uno a la vez.
+	- Full-Duplez: la información viaja en ambos sentidos pudiendo ser bidireccional al mismo tiempo.
+
+## Redes:
+Una red es una interconexión de varios dispositivos capaces de establecer una comunicación entre ellos. Sus protagonistas son:
+	- un host o terminal
+	- un dispositivo de conexión, como puede ser un router,que conecta una red con otras varias.
+
+## Estructuras físicas
+
+Los tipos de conexiones pueden ser:
+	- Punto a punto: el cual provee un enlace dedicado a los dos dispositivos.
+	- Multipunto: Donde uno o varios dispositivos comparten un enlace determinado.
+
+## Topología
+	[Explicado más arriba]
+
+## Tipos de redes
+	[Explicado más arriba] : LAN, WAN, WAN punto a punto, etc.
+
+## Conmutación de paquetes
+
+Un paquete es un grupo de información que consta de dos partes: los datos propiamente dichos y la información de
+control, que indica la ruta a seguir a lo largo de la red hasta el destino del paquete. La \textbf{conmutación de
+paquetes} es un método de agrupar los datos transmitidos a través de una red digital en paquetes que se componen de un
+encabezado y una carga útil. Los datos en el encabezado son utilizados por el hardware de red para dirigir el paquete a
+su destino donde la carga útil es extraída y utilizada por el software de la aplicación. La conmutación de paquetes es
+la base principal de las comunicaciones de datos en redes informáticas de todo el mundo.
+
+Las aplicaciones distribuidas intercambian mensajes para llevar a cabo sus tareas. Los mensajes pueden contener
+cualquier cosa que el diseñador del protocolo desee. Los mensajes pueden realizar una función de control (por ejemplo,
+los mensajes de saludo ''Hola'' del ejemplo anterior sobre establecimiento de la comunicación) o pueden contener datos,
+como por ejemplo un mensaje de correo electrónico, una imagen JPEG o un archivo de audio MP3. En las redes de
+computadoras modernas, el origen divide los mensajes largos en fragmentos de datos más pequeños que se conocen como
+paquetes. Entre el origen y el destino, cada uno de estos paquetes viaja a través de los enlaces de comunicaciones y de
+los conmutadores de paquetes (de los que existen dos tipos predominantes: los routers y los switches de la capa de
+enlace). Los paquetes se transmiten a través de cada enlace de comunicaciones a una velocidad igual a la velocidad de
+transmisión máxima del enlace.
+
+La mayoría de los conmutadores de paquetes emplean el método de transmisión de almacenamiento y reenvío en las entradas
+de los enlaces. \textbf{Transmisión de almacenamiento y reenvío} significa que el conmutador tiene que recibir el paquete
+completo antes de poder comenzar a transmitir el primer bit del paquete al enlace de salida. Por tanto, los conmutadores
+de paquetes de almacenamiento y reenvío añaden un retardo de almacenamiento y reenvío en la entrada de cada enlace
+existente a lo largo de la ruta que debe seguir el paquete. Veamos el tiempo que se tarda en enviar un paquete de L bits
+desde un host a otro host en una red de conmutación de paquetes. Supongamos que existen Q enlaces entre los dos hosts, y
+que la velocidad en cada uno de ellos es igual a R bps. Suponemos que éste es el único paquete presente en la red. En
+primer lugar, el paquete tiene que enviarse a través del primer enlace que sale del host A, lo que consume un tiempo de
+$\frac{L}{R}$ segundos. A continuación, tiene que ser transmitido por cada uno de los $Q - 1$ enlaces restantes; es decir, se
+tiene que almacenar y reenviar $Q - 1$ veces, añadiéndose cada vez un retardo de almacenamiento y reenvío de $\frac{L}{R}$. Por
+tanto, el retardo total es igual a $\frac{Q*R}{L}$
+
+Cada conmutador de paquetes tiene varios enlaces conectados a él y para cada enlace conectado, el conmutador de paquetes
+dispone de un buffer de salida (también denominado cola de salida), que almacena los paquetes que el router enviará a
+través de dicho enlace. El buffer de salida desempeña un papel clave en la conmutación de paquetes. Si un paquete
+entrante tiene que ser transmitido a través de un enlace, pero se encuentra con que el enlace está ocupado transmitiendo
+otro paquete, el paquete entrante tendrá que esperar en el buffer de salida. Por tanto, además de los retardos dé
+almacenamiento y reenvío, los paquetes se ven afectados por los retardos de cola del buffer de salida. Estos retardos
+son variables y dependen del nivel de congestión de la red. Puesto que la cantidad de espacio en el buffer es finita, un
+paquete entrante puede encontrarse con que el buffer está completamente lleno con otros paquetes que esperan a ser
+transmitidos. En este caso, se producirá una pérdida de paquetes, bien el paquete que acaba de llegar o uno que ya se
+encuentra en la cola será descartado.
+
+
