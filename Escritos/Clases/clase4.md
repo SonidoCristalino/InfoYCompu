@@ -46,14 +46,24 @@ frecuencia (que es el análisis que hace Fourier). Se transforma del dominio del
 ## Clase de hoy:
 ---------------
 
-Señales digitales: tienen pros y contra [página nº 3]
+## Señales digitales:
+
+Las señalaes tienen pros y contra [página nº 3]
 
 	- Tasa de bits : número de bits que se transmiten por segundo (bps), se escribe con minúscula.
 
-Ver que no tiene nada que ver con el baudio (número de cambio de eventos que tiene la señal) como dice en la página nº 3.
+Ver que no tiene nada que ver con el Baudio (número de cambio de eventos que tiene la señal) como dice en la página nº 3.
 
 Para ver un ejemplo ver la página nº 5 ver que se transmiten 16 bps porque se transmiten 8 pero con otra amplitud (8 alternativas,
 8x8 = 16).
+
+	- Para saber cuántos niveles se requieren para poder transmitir n cantidad de bits, lo que se debe emplear es:
+		log2 [niveles]
+
+	- El problema que existe es que la calculadora _fx-82MS_ sólo tiene la opción de realizar logaritmos en base 10.  Lo que
+	  hay que hacer para obtener el resultado es aplicar una de las propiedades del logaritmo:
+		Log_a b = Log b / log a
+
 
 Ancho de banda
 ¿Qué pasa cuando se pasa al dom de frecuencia?
