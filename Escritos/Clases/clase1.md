@@ -88,18 +88,18 @@ descriptos, lo mismo que lo que sería ahora comunicación con celular (más act
 	  incorrectos y no deberán de ser utilizados.
 	- Puntualidad: se deben entregar con puntualidad. Los datos entregados tarde, no sirven.
 
-## Sistema de comunicación:
+## Sistema de telecomunicación:
 	Conjunto de elementos que hacen posible la transferencia de información entre puntos distantes.
 
 ## La comunicación de datos difiere porquese agregan cosas:
-	Emisor: Fuente de información y transmisor. La fuente de información, sería el cerebro del profesor el transmisor las cuerdas
-	vocales del profesor.
-	Canal (en caso de que sea presencial): es el aire
+	- Emisor: Fuente de información y transmisor. La fuente de información, sería el cerebro del profesor el transmisor las
+	  cuerdas vocales del profesor.
+	- Canal (en caso de que sea presencial): es el aire
 
-	Receptor: se divide en dos Receptor y Destino, en el ejemplo anterior, el receptor sería oído del alumno y el destino:
-	Cerebro del alumno
+	- Receptor: se divide en dos Receptor y Destino, en el ejemplo anterior, el receptor sería oído del alumno y el destino:
+	  Cerebro del alumno
 
-Según la filmina se puede clasificar:
+### Según la filmina se puede clasificar:
 	- Fuente de Información: Elemento que genera la información. Esta puede ser analógica o digital.
 	- Analógica: La información a transmitir es una señal continua en el tiempo x(t). Ej: Voz (salida de un micrófono),
 	  temperatura (salida de un sensor).
@@ -134,7 +134,7 @@ comunica, cómo se comunica y cuando es comunicado. Los elementos clave de un pr
 	- Temporización: Cuándo la información debe ser enviada y a que velocidad (Tasa de transferencia con respecto a la velocidad
 	de procesamiento del receptor).
 
-Ejemplo:
+### Ejemplo:
 	Nosotros para comunicarnos necesitamos que exista un protocolo. En la clase que se está cumpliendo sin decirlo, sin que
 	exista la necesidad de aclararlo, el profesor habla y nosotros escuchamos. Y si alguien quiere consultar, levanta la mano
 	y se le da la palabra.
@@ -180,10 +180,11 @@ Las redes se pueden clasificar de varias maneras distintas:
 
 
 ## Clasificación según su alcance:
+---------------------------------
 
 	- PAN: Personal Area Network (Red de área personal) : Es una red utilizada para la comunicación entre dispositivos
-	(computadoras, impresoras, puntos de acceso a internet, teléfonos celulares) cercanos entre sí.
-	El alcance de una PAN es típicamente de algunos metros. Se pueden conectar a través del puerto USB o por Bluetooth.
+	  (computadoras, impresoras, puntos de acceso a internet, teléfonos celulares) cercanos entre sí. El alcance de una PAN
+	  es típicamente de algunos metros. Se pueden conectar a través del puerto USB o por Bluetooth.
 
 	- LAN: Local Area Network (Red de Área Local) Es una red que se limita a un área especial relativamente pequeña tal como una
 	oficina, un edificio, un campus o un avión. Son generalmente de propiedad privada.  Están formadas en su mayoría por Host.
@@ -202,6 +203,7 @@ Las redes se pueden clasificar de varias maneras distintas:
 	[Obtener la imagen de la filmina]
 
 ## Clasificación según el Canal:
+-------------------------------
 
 	Medios de transimisión guiados: El canal por el que se transmiten las señales es un medio físico, por ejemplo:
 		- Cable de par trenzado
@@ -214,6 +216,7 @@ Las redes se pueden clasificar de varias maneras distintas:
 		- Microondas (terrestres o satelitales)
 
 ## Clasificación según su Relación Funcional
+--------------------------------------------
 
 	Cliente-Servidor: Una red Cliente-Servidor es una red en la que al menos un nodo (servidor) es el encargado de controlar y
 	ofrecer los diferentes recursos y servicios al resto de los nodos (clientes) que lo soliciten
@@ -225,6 +228,7 @@ Las redes se pueden clasificar de varias maneras distintas:
 	[Obtener la imagen de la filmina]
 
 ## Clasificación según su Tecnología
+------------------------------------
 
 	Conexión punto a punto: Una red punto a punto es aquella en la que cada canal de datos se usa para comunicar únicamente
 	dos nodos.
@@ -235,6 +239,7 @@ Las redes se pueden clasificar de varias maneras distintas:
 	[Las imagenes de la filmina son bastante intuitivas]
 
 ## Clasificación según su Topología:
+------------------------------------
 
 El término *topología* se refiere a la forma en que está diseñada la red (representación geométrica de la relación entre todos los
 canales y los nodos entre sí).  Dos o más nodos se conectan a un canal. Dos o más canales forman una topología.
@@ -357,14 +362,15 @@ Un aspecto importante a considerar es la relación funcional entre los nodos (re
 
 
 ## Clasificación según su Direccionabilidad:
+--------------------------------------------
 
-	a. Simplex: la comunicación solo es posible en un sentido (Ej: Radiodifusión).
-	b. Half-Duplex: ambos sentidos alternativamente (Ej: Radiocomunicaciones).  Halfduplex: similar a una carretera, donde
-	pueden ir en ambos sentidos, sólo pasa uno a la vez.
-	c. Full-Duplex: existe un intercambio de información en ambos sentidos
+	- Simplex: la comunicación solo es posible en un sentido (Ej: Radiodifusión).
+	- Half-Duplex: ambos sentidos alternativamente (Ej: Radiocomunicaciones).  Halfduplex: similar a una carretera, donde
+	  pueden ir en ambos sentidos, sólo pasa uno a la vez.
+	- Full-Duplex: existe un intercambio de información en ambos sentidos
 
-
-Clasificación según Grado de Difusión:
+## Clasificación según Grado de Difusión:
+----------------------------------------
 
 	- Una intranet es una red privada de computadoras que utiliza tecnología de Internet para compartir dentro de una
 	  organización parte de sus sistemas de información y sistemas operacionales.
@@ -377,8 +383,8 @@ Clasificación según Grado de Difusión:
 Alcance tiene que ver con si es una área local personal (están todo en la filmina), amplia. Se pretende que se sepa la diferencia
 entre si.
 
-* Cuál es de mayor alcance (si la LAN o la personal).
-* Cómo se clasifican las redes según el canal : guiados o alambricos (medio físico) inalámbricos (red de ondas, etc)
+* ¿Cuál es de mayor alcance? (si la LAN o la personal).
+* ¿Cómo se clasifican las redes según el canal? : guiados o alambricos (medio físico) inalámbricos (red de ondas, etc)
 
 Relación funcional: reconocer la diferencia entre las dos.  Según la tecnología, etc.
 

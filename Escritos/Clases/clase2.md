@@ -1,4 +1,5 @@
-
+# Filmina:
+	* Clase 2 - Modelo de Redes
 
 # Modelo capa de redes
 ----------------------
@@ -61,6 +62,7 @@ Todo este flujo se denomina *encapsulamiento*. Cuando la trama llega al destino,
 superior.
 
 # Capas de Red
+--------------
 ¿Por qué se organiza en capas? Porque ayuda a organizar y a identificar las relaciones de elementos de un sistema complejo como
 son las redes de ordenadores. La modularización facilita el mantenimiento y la actualización del sistema. Algunas funcionalidades
 se implementan en varias capas y a veces se necesita información para una capa, que se encuentra en otra distinta que la propia,

@@ -1,3 +1,7 @@
+# Filmina:
+----------
+	* Clase 3 - Datos y Señales (Parte A)
+
 # Clase 3: 28/03/2020
 
 	La clase que viene van a subir al campus una auto evaluación que junta las 3 clases. Para ir sabiendo si tenemos aprobada
@@ -19,7 +23,13 @@ La señal es el medio que nos va a dar aviso de la información y en son señale
 mientras que las señales son los vehículos: autos, micros, etc. Datos para llegar a un lugar necesitan un medio de transporte,
 igual que los datos, y por lo tanto necesitan de señales electromagnéticas
 
-Señales: los más común son las señales eléctricas, las mismas pueden ser voltajes o tensiones que se miden en Volt, corriente en
+
+# Señales
+---------
+Es un medio que informa o avisa de algo, este aviso da a conocer información. Representación eléctrica o electromagnética de
+los datos
+
+Las más común son las señales eléctricas, las mismas pueden ser voltajes o tensiones que se miden en Volt, corriente en
 Amper o componente de campo electromagnético, y estas señales provienen de transductor, necesitamos que por ejemplo una
 temperatura que se convierta en señal eléctrica, para ser procesada por un dispositivo.
 
@@ -27,6 +37,7 @@ Las señales se pueden clasificar de determinadas maneras (en la filmina, 1, 3, 
 	- Señales analógicas: es una señala que puede tomar infinitos valores en amplitud, son continuos y los infinitos valores
 	  en tiempo también son posibles. Se puede hacer una comparación con el reloj analógico, cuya información al respecto de
 	  la hora nos la brinda de forma continua, ya que el movimiento de las agujas del reloj son continuas.
+
 	- Señal digital: es una señal sólo en amplitud puede tomar valores discretos, no toma infinitos valores. Presenta una
 	  variación discontinua en amplitud y tiempo. Esto es como el reloj analógico, el cual nos informa de la hora
 	  repentinamente, cambiando de minuto a minuto de forma repentina.
@@ -38,7 +49,7 @@ También se pueden configurar como:
 	  a una probabilidad mayor o menor) [no consideramos estas señales]. Procesos estocásticos de señales.
 
 ## Clasificación de señales:
----------------------------
+----------------------------
 	- Periódicas: es aquella que su ciclo principal se va repitiendo cada cierto intervalo de tiempo. Muestran una
 	  periodicidad, están las funciones den la filmina. Período medido en segundos Señal periódica: Una señal es periódica si
 	  completa un patrón dentro de un marco de tiempo medible, denominado periodo, y repite ese patrón en periodos idénticos
@@ -49,7 +60,7 @@ También se pueden configurar como:
 En las comunicaciones de datos comunmente se utilizan señales *analógicas periódicas y señales digitales no periódicas*
 
 ## Señales Analógicas:
---------------------------------
+----------------------
 	Las señales analógicas pueden ser:
 		- Simples: es la señal que no puede ser descompuesta en otras (como una onda sinusoidal)
 		- Compuestas: Es la señal que está compuesta por otras señales.
@@ -59,10 +70,16 @@ En las comunicaciones de datos comunmente se utilizan señales *analógicas peri
 	por lo que vamos a tener que recordar las funciones de seno y coseno.  Seno: Está acotado en su amplitud y es periódica y
 	se repite cada 2pi^segundos. Se ven las características en las filminas.
 
-	Lo importante es el período y la señal. Ese período es la inversa de la frecuencia. El caso en el que alguna vez habrán
+	Lo importante es *el período y la señal*. Ese período es la inversa de la frecuencia. El caso en el que alguna vez habrán
 	visto en Matemática I
 	Relación entre período y frecuencia = es una relación inversa, cuando mayor es la frecuencia menor será el período, se
 	mide el período en segundos.
+
+## Elementos de Datos y de Señal:
+Para la codificación de línea encontramos varias características:
+		- Elementos de Datos: entidad más pequeña que puede representar un elemento de información: bit.
+		- Elementos de Señal: unidad más corta (en cuanto a tiempo) de una señal digital. Transporta elementos de datos.
+
 
 ## Señal sinusoidal:
 -------------------
